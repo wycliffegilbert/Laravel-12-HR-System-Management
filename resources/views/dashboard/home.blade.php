@@ -17,8 +17,8 @@
             </div>
             <div class="grid grid-cols-12 2xl:grid-cols-12 gap-x-5">
                 <div class="col-span-12 md:order-1 xl:col-span-8 2xl:col-span-6">
-                    <h5 class="mb-2">Welcome StarCode Kh 🎉</h5>
-                    <p class="mb-5 text-slate-500 dark:text-zink-200">The salary of<a href="#!" class="underline text-slate-800 dark:text-zink-50"> StarCode Kh</a> is pending since 05 Dec, 2024. the documentation of the tasks, workflows, and activities that make up a process managed by the HR or People Ops team. <a href="#!" class="text-red-500">Learn More</a></p>
+                    <h5 class="mb-2">Welcome Smartic Digital</h5>
+                    <p class="mb-5 text-slate-500 dark:text-zink-200">The salary of<a href="#!" class="underline text-slate-800 dark:text-zink-50"> Smartic Digital</a> is pending since 05 Dec, 2024. the documentation of the tasks, workflows, and activities that make up a process managed by the HR or People Ops team. <a href="#!" class="text-red-500">Learn More</a></p>
                 </div>
                 <div class="col-span-12 md:order-2 xl:col-span-4 2xl:col-start-9 card">
                     <div class="p-4">
@@ -602,7 +602,7 @@
                 </div>
                 <div class="col-span-12 md:order-12 lg:col-span-12 xl:col-span-8 2xl:col-span-3">
                     <div class="grid grid-cols-12 gap-x-5">
-                        <div class="relative col-span-12 card bg-gradient-to-r to-custom-100 dark:to-custom-500/20 from-transparent">
+                        <div class="relative col-span-12 card bg-linear-to-r to-custom-100 dark:to-custom-500/20 from-transparent">
                             <div class="bg-[url('../images/hr-dashboard.png')] absolute inset-0 bg-cover opacity-30"></div>
                             <div class="relative card-body">
                                 <div class="flex gap-3 mb-4">
@@ -619,7 +619,7 @@
                             <img src="{{ URL::to('assets/images/birthday.png') }}" alt="" class="absolute bottom-0 right-0">
                         </div>
                         <div class="col-span-12 card">
-                            <div class="!pb-0 card-body">
+                            <div class="pb-0 card-body">
                                 <div class="flex items-center gap-2 mb-3">
                                     <h6 class="text-15 grow">Recent Payroll</h6>
                                     <div class="relative dropdown shrink-0">
@@ -627,7 +627,7 @@
                                             <i data-lucide="more-vertical" class="inline-block size-4"></i>
                                         </button>
                                 
-                                        <ul class="absolute z-50 hidden py-2 mt-1 ltr:text-left rtl:text-right list-none bg-white rounded-md shadow-md dropdown-menu min-w-[10rem] dark:bg-zink-600" aria-labelledby="userDeviceDropdown">
+                                        <ul class="absolute z-50 hidden py-2 mt-1 ltr:text-left rtl:text-right list-none bg-white rounded-md shadow-md dropdown-menu min-w-40 dark:bg-zink-600" aria-labelledby="userDeviceDropdown">
                                             <li>
                                                 <a class="block px-4 py-1.5 text-base transition-all duration-200 ease-linear text-slate-600 dropdown-item hover:bg-slate-100 hover:text-slate-500 focus:bg-slate-100 focus:text-slate-500 dark:text-zink-100 dark:hover:bg-zink-500 dark:hover:text-zink-200 dark:focus:bg-zink-500 dark:focus:text-zink-200" href="#!">Today</a>
                                             </li>

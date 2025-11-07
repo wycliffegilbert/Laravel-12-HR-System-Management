@@ -92,8 +92,8 @@
                                     <td class="email">{{ $employee->email }}</td>
                                     <td class="phone_number">{{ $employee->phone_number }}</td>
                                     <td class="experience">{{ $employee->experience }}</td>
-                                    <td>{{ \Carbon\Carbon::parse($employee->join_date)->diffForHumans(); }}</td>
-                                    <td>{{ \Carbon\Carbon::parse($employee->last_login)->diffForHumans(); }}</td>
+                                    <td>{{ \Carbon\Carbon::parse($employee->join_date)->diffForHumans() }}</td>
+                                    <td>{{ \Carbon\Carbon::parse($employee->last_login)->diffForHumans() }}</td>
                                     <td class="role_name">{{ $employee->role_name }}</td>
                                     <td class="designation">{{ $employee->designation }}</td>
                                     <td class="department">{{ $employee->department }}</td>
@@ -511,7 +511,7 @@
 
             // Assign text values to inputs
             $('#e_id').val(_this.find('.id').text().trim());
-            $('#e_employee_id').val(_this.find('.user_id').text().trim());
+            $('#e_emplpoyee_id').val(_this.find('.user_id').text().trim());
             $('#e_name').val(_this.find('.name').text().trim());
             $('#e_email').val(_this.find('.email').text().trim());
             $('#e_position').val(_this.find('.position').text().trim());
@@ -533,7 +533,7 @@
         $(document).on('click','#deleteRecord',function()
         {
             var _this = $(this).parents('tr');
-            $('#e_idDelete').val(_this.find('.ids').text());
+            $('#e_idDelete').val(_this.find('.id').text());
             $('#del_photo').val(_this.find('.photo').text());
         });
     </script>
